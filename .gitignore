@@ -1,0 +1,38 @@
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ========== 依赖 ==========
+node_modules/
+package-lock.json
+package.json
+
+# ========== 数据文件（不提交原始数据） ==========
+*.xlsx
+*.json
+*.csv
+# 以下为爬虫中间数据文件，如需提交请注释
+dfa_article_urls.txt
+dfa_candidate_urls.txt
+dfa_unique_urls.txt
+dfa_statements_urls.txt
+
+# ========== 大文件（EPUB/PDF/DOCX） ==========
+*.epub
+*.pdf
+*.docx
+*.rtf
+
+# ========== 会话日志（个人记录） ==========
+conversation-log.md
+session-summary.md
+
+# ========== Python缓存 ==========
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
