@@ -24,6 +24,8 @@ dfa_statements_urls.txt
 *.pdf
 *.docx
 *.rtf
+# 但备份文件夹中的rtf是重要手工文档，不屏蔽
+!260602中菲媒体论文-备份-*/**/*.rtf
 
 # ========== 会话日志（个人记录） ==========
 conversation-log.md
